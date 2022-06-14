@@ -51,7 +51,7 @@ echo "$SOURCE" | sudo tee /etc/apt/sources.list > /dev/null
 echo "STEP1: Install Dependencies and Download ROS source packages"
 
 # Where will the output go?
-WORK_DIR="/home/pi/ros_catkin_ws"
+WORK_DIR=~/ros_catkin_ws
 
 BUILD_DEPS="build-essential cmake"
 PYTHON_DEPS="python-rosdep python-rosinstall-generator python-wstool python-rosinstall"
